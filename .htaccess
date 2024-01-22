@@ -1,0 +1,23 @@
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
+Header always set Content-Security-Policy "upgrade-insecure-requests;"
+
+ErrorDocument 404 /404.html
+
+# Rewrite specific URLs to remove .html and capitalize the first character
+RewriteRule ^404$ 404.html [L]
+RewriteRule ^About-Us$ about.html [L]
+RewriteRule ^Products$ Catelogues.html [L]
+RewriteRule ^Contact$ contact.html [L]
+RewriteRule ^Home$ index.html [L]
+RewriteRule ^Packing-Details$ packing.html [L]
+RewriteRule ^Technical-Specification$ technical.html [L]
+
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php82” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php82___lsphp .php .php8 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

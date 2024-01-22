@@ -1,0 +1,188 @@
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: black;
+    min-width: 230px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.dropdown-content a:hover {
+    background-color: #ffffff;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+table tr td {
+    background: #fff0e6;
+    padding: 10px;
+    padding-left: 20px;
+    width: 500px;
+    height: 60px;
+}
+
+td:first-child,
+th:first-child {
+    padding-left: 20px !important;
+}
+
+.table-head td {
+    background: #ddd;
+    font-weight: bold !important;
+    color: #ff5e14 !important;
+    text-transform: uppercase;
+}
+
+table tr:nth-child(even) td {
+    background: rgb(255, 177, 128);
+}
+
+.services {
+    margin: 10px 0px 0px 15px;
+    list-style: disc;
+}
+
+.services-paper {
+    margin: 1px 0px 0px 25px;
+    list-style: upper-roman;
+}
+.services-papernum {
+    margin: 1px 0px 0px 25px;
+    list-style: decimal;
+}
+
+h3 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.tblheading {
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.paper-heading p {
+    font-size: 50px;
+    font-weight: 600;
+    color: black;
+}
+
+.paper-heading span {
+    font-size: 50px;
+    font-weight: 200;
+    color: black;
+}
+.our-product{
+    width: 70%;
+    margin-left: 100px;
+    overflow: hidden;
+}
+.topmargin{
+    margin-top: 150px;
+}
+.services-image{
+
+  height:75vh;
+  margin-top: 0px;
+}
+.services-text{
+    position: absolute;
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color:#f35525;
+  top: 75vh;
+  margin-left: 620px;
+}
+.contact-us{
+    position: absolute;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:#f35525;
+    top: 75vh;
+    margin-left: 600px;
+}
+.back-to-WhatsApp {
+    position: fixed;
+    display: none;
+    left: 45px;
+    bottom: 45px;
+    z-index: 99;
+}
+
+.btn-what {
+    color: #ffffff;
+    background-color: #06cc14;
+    border-color: #06cc14
+}
+.btn-what:hover {
+    
+    color: #ffffff;
+    background-color: #26c49f;
+    border-color: #1ac099
+}
+.btn {
+    transition: .5s;
+}
+.btn-lg-square {
+    width: 48px;
+    height: 48px;
+}
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    border-radius: 50px;
+}
+.solution{
+    margin: 10px 0px 0px 15px;
+    list-style: disc;
+    font-weight: 300;   
+    color: white;
+    font-size: 15px;
+}
+.solution-head{
+    color: white;
+    margin-top: 30px; 
+    margin-left:15px;
+    font-weight: 400;
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+.get-in-touch{
+    color: white;
+    margin-left: 15px;
+    font-size: 15px;
+}
+li a{
+    color: white;
+    font-size: 15px;
+}
+.copyright{
+    color: white;
+    margin-left: 35%;
+}
+ul li {
+    list-style-type: none;
+    
+}
+ul li i{
+    margin: 10px 0px 0px 15px;
+
+       color: #f35525;
+}
+ul{
+    margin : 0px !important;
+    padding :0px!important;
+}
